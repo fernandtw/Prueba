@@ -1,0 +1,391 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*HEADER*/
+
+header{
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:#A555EC;
+
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+/*MAIN INDEX*/
+
+/*TITULO PRINCIPAL*/
+
+.title_anime{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    color:black;
+    padding-right:150px;
+
+}
+
+.span_color{
+
+    color: #4C0033 ;
+
+}
+
+/*INICIO PAGINA PRINCIPAL*/
+
+.contenedor__informacion{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:black;
+    padding-right: 150px;
+    margin: 20px;
+
+}
+
+.anime{
+    background-image: url(../ASSETS/fondo_index.jpg);
+    /* width ancho en ingles */
+    /*height largo en ingles */
+    background-attachment: fixed;
+    display: flex;
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width:100%;
+    height:90vh;
+
+
+}
+
+.contenedor_principal{
+    padding:60px;
+}
+
+
+.cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+
+/*IMAGENES Y FONDOS PRINCIPALES*/
+
+.animemanga div img{
+    width:400px;
+    height:450px;
+    padding:30px;
+    object-fit: cover;
+
+}
+
+.animemanga{
+    background-color: #000000;
+}
+
+
+/*ESTILOS TEXTOS CARDS*/
+
+
+.title_card{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    color:#ffffff;
+    padding-right:150px;
+    text-align: center;
+}
+
+
+.contenedor__p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    padding-right: 150px;
+    margin: 20px;
+
+}
+
+.card_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#ffffff;
+    padding-right: 150px;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+/*PIE DE PAGINA*/
+
+footer{
+    background-image: url(../ASSETS/fondo_index.jpg);
+    background-attachment: fixed;
+    display: flex;
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    padding: 15px;
+    display: flex;
+
+
+}
+
+/*FUENTES PIE DE PAGINA*/
+
+footer h4{
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+footer h4 span{
+    color: #3F0071;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+footer a {
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+footer li{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    color:#6D67E4;
+    text-align:initial;
+    padding-right: 100px;
+    margin: 25px ;
+
+}
+
+/*Productos*/
+
+.mangas{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width:100%;
+    height:170vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+
+
+/* TITULOS H2 PRODUCTOS */
+
+
+
+.title_producto{
+    color: #000000;
+    background-image: url(../ASSETS/fondo_index.jpg);
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.title__products{
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+    color:#ffffff;
+    padding-right: 150px;
+    margin: 20px;
+
+
+}
+
+/* PARRAFOS-PRECIOS */
+
+.mangas p{
+    font-family: 'Roboto', cursive;
+    font-size: 15px;
+    color:#ffffff;
+    padding-right: 150px;
+    margin: 20px;
+
+
+}
+
+
+
+/* IMAGENES PRODUCTOS */
+
+.box img{
+    width:200px;
+    height:300px;
+    padding:20px;
+    object-fit: cover;
+
+
+}
+
+/*SECCION QUIENES SOMOS*/
+
+/*FONDO*/
+.QuienesSomos{
+    background-color: #000000;
+    text-align: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.Contenedor_QuienesSomos{
+    display: flex;
+}
+
+
+/*FUENTES-PRODUCTOS*/
+
+.title_1{
+
+    background-image: url(../ASSETS/fondo_index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+.contenedor_texto{
+
+    background-color: #000000;
+    display: flex;
+    font-family: 'Roboto', cursive;
+    font-size: 20px;
+    color:#ffffff;
+    text-align: justify;
+    padding-right: 150px;
+    margin: 20px;
+
+
+
+}
+
+
+/*CONTACTO*/
+
+.contacto{
+
+    width: 100%;
+    height: 90vh;
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: start;
+    color: #ffffff;
+    padding: 10px;
+
+
+
+
+}
+
+/*BOTONES Y CAJAS DE TEXTO*/
+
+.contacto input{
+    background-color: #ffffff;
+    border-radius: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    
+
+}
+
+.botones input{
+
+    background-color: #ADA2FF;
+    border-radius: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+
+}
+
+
+.contacto textarea{
+    border: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+
+}
+
+/*CONTACTO FUENTES*/
+
+.contacto p{
+    
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+
+}
